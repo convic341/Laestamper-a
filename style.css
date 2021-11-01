@@ -1,0 +1,263 @@
+*{
+     padding: 0;
+     margin: 0;
+}
+html{ font-family: 'Zen Kaku Gothic Antique', sans-serif;
+   font-size: 62.5%;
+  
+}
+
+h1{ display: block;
+    color: white;
+    padding-left: 2rem;
+    font-size: 4rem;
+    font-family: 'Special Elite', cursive;
+
+}
+
+header{ display: flex;
+        background-color: black;
+        align-items: center;
+        height: 10rem;
+        justify-content: space-between;
+
+
+}
+
+
+nav{ float: right;
+    display: block;
+   
+    
+
+}
+
+nav ul{ display: flex;
+    list-style-type: none;
+    font-size: 1.8rem;
+    flex-wrap: nowrap;
+    
+
+    
+
+
+}
+
+nav ul li{ padding-left: 1rem;
+    padding-right: 1rem;
+    border-left: solid darkgray;
+    text-transform: uppercase;
+    display: list-item;
+    
+    
+
+}
+
+
+
+a{ text-decoration: none;
+    color: white;
+
+
+}
+nav a:hover{
+    background-color: rgb(34, 32, 32);
+    padding: 0.5rem;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.2s;
+
+
+}
+
+.resp{
+	margin: auto;
+    padding: 2rem;
+	background-image: url(img/fondoform.jpg)
+    
+
+}
+
+
+
+.tarjeta{
+	background: lightgray;
+	margin-bottom: 2rem;
+	width: 32%;
+    border-radius: 5%;
+   
+}
+
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    margin-top: 2rem;
+    
+}
+
+.tarjeta-content{  
+	padding: 1rem;
+	font-size: 1.8rem;
+}
+
+.tarjeta-content h2{
+	margin-top: .5rem;
+    margin-bottom: .5rem;
+	
+	font-weight: normal;
+}
+
+
+figure{
+	margin: 0;
+}
+
+img{
+	display: block;
+	border:0;
+	width: 100%;
+	height: auto;
+    border-radius: 5%;
+}
+
+.imgtaller{
+    border-radius: 0%;
+    
+}
+
+footer section {
+    background-color: darkgray;
+    color:black;
+   
+    
+  
+}
+footer div{
+     justify-content: center; 
+     display: flex;
+     
+}
+
+footer section div p{
+    font-size: 1.5rem;
+       
+}
+
+ul li i{
+    color: black
+}
+
+h3{
+    font-size: 2.5rem;
+    justify-content: center;
+}
+
+footer section ul{
+    display: flex;
+    padding-left: 0;
+
+    
+}
+footer section ul li{    
+    
+    list-style-type: none;
+    padding: .8rem;
+    font-size: 2rem;
+ 
+}
+footer section{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.formulario{
+    
+    padding: 10rem;
+    background-image: url(img/fondoform.jpg)
+    
+}
+
+.formulario form{
+    background-color: lightgray;
+    border-radius: 10%;
+}
+
+ 
+form{
+    display: block;
+    font-size: 2rem;
+    
+
+    
+}
+
+form div{
+    justify-content: center;
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+  
+    }
+
+#boton{
+    
+    background-color: black;
+    color: white;
+    border-color: black;
+    padding: 0.5rem;
+    border-radius: 10%;
+}
+
+#boton:hover{
+    background-color: rgb(71, 67, 67);
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.2s;
+}
+
+
+
+@media screen and (max-width: 1080px) {
+
+    header{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        height: max-content;
+        
+    }
+    nav{ float: none;
+        display: list-item;           
+    
+    }
+    nav ul{ display: block;
+        list-style-type: none;
+        text-align: center;
+       
+            
+    
+        
+    
+    
+    }
+    nav ul li{ 
+        
+        border-left: none;
+        text-transform: uppercase;
+        font-size: 2rem;
+        
+        
+        
+    
+    }
+}
+    
+ 
+  
+
+
+
